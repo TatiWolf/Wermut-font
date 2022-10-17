@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Wermut';
+    src: local('./fonts/Wermut Regular'),
+    url('../fonts/Wermut Regular/Wermut.woff2') format('woff2'),
+    url('../fonts/Wermut Regular/Wermut.woff') format('woff'),
+    url('../fonts/Wermut Regular/Wermut.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Wermut';
+    src: local('./fonts/Wermut Italic'),
+    url('../fonts/Wermut Italic/Wermut-Italic.woff2') format('woff2'),
+    url('../fonts/Wermut Italic/Wermut-Italic.woff') format('woff'),
+    url('../fonts/Wermut Italic/Wermut-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.paragraph-link{
+    font-family: Wermut;
+    font-style: italic;
+    font-size: 52px;
+}

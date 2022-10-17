@@ -1,0 +1,40 @@
+@import "font.css";
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.section-header {
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.head-line{
+    margin: 14px 15px 0 25px;
+}
+
+.head-line-first{
+    margin: 14px 25px 0 90px;
+}
+.paragraph-link{
+    border: none;
+    color: inherit;
+    background-color: transparent;
+}
