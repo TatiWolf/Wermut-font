@@ -1,0 +1,39 @@
+.arrow-img {
+    width: 245px;
+    margin: 40px 9px 0 0 ;
+}
+
+.magazine-with-women-img {
+    position: absolute;
+    top: 100px;
+    left: -150px;
+}
+
+
+.magazine-zebra-img {
+    position: absolute;
+    right: -150px;
+    top: 200px;
+}
+
+.about-symbols-img {
+    transform: rotate(30deg);
+}
+
+.about-creator-img {
+}
+
+.outlines-women-img {
+    position: relative;
+    left: 80px;
+    margin-top: -690px;
+}
+
+.special-glyphs-img {
+}
+
+.description-img {
+}
+
+.footer-wrap-img {
+}

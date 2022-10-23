@@ -1,4 +1,5 @@
 @import "font.css";
+@import "img.css";
 
 .container {
     width: 100%;
@@ -21,20 +22,133 @@
     position: relative;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
 }
 
-.head-line{
+.head-line-img {
     margin: 14px 15px 0 25px;
 }
 
-.head-line-first{
+.head-line-first-img {
     margin: 14px 25px 0 90px;
 }
-.paragraph-link{
+
+button {
     border: none;
-    color: inherit;
     background-color: transparent;
+}
+
+.title-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 35px 0 0 ;
+}
+
+.title-wrap-bottom {
+    margin-right: 130px;
+}
+
+.header {
+    padding-top: 40px;
+}
+.title-wrap-top-text {
+    margin-top: -15px;
+}
+
+.block-about-symbols {
+    position: absolute;
+    left: -644px;
+    top: 900px;
+    z-index: 2;
+}
+
+.about-symbols-text {
+    position: absolute;
+    top: 1055px;
+    transform: rotate(30deg);
+    left: 605px;
+    text-align: end;
+}
+
+.about-symbols-text-title {
+    margin: 70px 0 30px 0;
+}
+
+.block-about-creator {
+    position: relative;
+    right: -375px;
+    z-index: 1;
+}
+
+.block-about {
+    padding-top: 350px;
+}
+
+.about-creator-text {
+    position: absolute;
+    top: 972px;
+    right: 420px;
+    text-align: right;
+}
+
+.outlines {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.outlines-text {
+    margin-bottom: 150px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.section-bottom-690 {
+    padding-bottom: 690px;
+}
+
+.outlines-letters {
+}
+
+.price-card {
+}
+
+.price-card-special-glyphs {
+}
+
+
+.special-glyphs {
+}
+
+.ligatures {
+}
+
+.description {
+}
+
+.description-wrap {
+}
+
+.description-text {
+}
+
+
+.footer {
+}
+
+.footer-text {
+}
+
+.button {
+}
+
+.title-wrap-centered-text {
+    padding-top: 120px;
+}
+.margin-right-32 {
+    margin-right: 32px;
 }
