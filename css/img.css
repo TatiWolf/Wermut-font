@@ -30,10 +30,21 @@
 }
 
 .special-glyphs-img {
+    position: absolute;
+    left: -150px;
+    top: 50px;
+
 }
 
 .description-img {
+    position: relative;
+    left: -270px;
+    height: 85em;
+    width: auto;
 }
 
 .footer-wrap-img {
+    position: absolute;
+    left: -140px;
 }
+

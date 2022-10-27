@@ -1,6 +1,7 @@
 @import "font.css";
 @import "img.css";
 
+
 .container {
     width: 100%;
     margin-left: auto;
@@ -73,7 +74,7 @@ button {
 }
 
 .about-symbols-text-title {
-    margin: 70px 0 30px 0;
+    margin: 90px 0 30px 0;
 }
 
 .block-about-creator {
@@ -112,12 +113,18 @@ button {
 }
 
 .outlines-letters {
+
 }
 
 .price-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0 0 0;
 }
 
 .price-card-special-glyphs {
+
 }
 
 
@@ -128,27 +135,92 @@ button {
 }
 
 .description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
+
 .description-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: -155px;
 }
 
 .description-text {
 }
 
-
+.subscript-block{
+    margin: 20px 0 0 0;
+}
 .footer {
+    padding: 150px 150px 250px 150px;
 }
 
 .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contacts{
+    margin-right: -50px;
+    margin-top: 160px;
+}
+.facetype{
+    margin-top: -25px;
 }
 
 .button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 40px;
+    z-index: 1;
 }
 
+.buybutton{
+    z-index: 2;
+    margin-top: -140px;
+    margin-right: 125px;
+    text-decoration: none;
+}
 .title-wrap-centered-text {
     padding-top: 120px;
 }
 .margin-right-32 {
     margin-right: 32px;
 }
+
+.margin-top-60{
+    margin: 60px 0 0 0;
+}
+.padding-top-150{
+    padding: 150px 0 0 0;
+}
+
+.padding-top-100{
+    padding: 100px 0 0 0;
+}
+
+.discrepion{
+    margin-top: 5px;
+    margin-right: 53px;
+}
+a:-webkit-any-link {
+    color: #a31b1a;
+    cursor: pointer;
+    text-decoration: none;}
+
+.pointer{
+    cursor: context-menu;
+}
+.link:hover{
+ color: #000000;
+}
+a:visited {
+    color: #a31b1a;
+}
+.link:active{
+ color: #a31b1a;
+}
+

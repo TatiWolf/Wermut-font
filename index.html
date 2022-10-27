@@ -6,19 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.1.js" charset="utf-8"></script>
+    <script src="js/arrow.js" charset="utf-8"></script>
     <title>Wermut font</title>
 </head>
 <body>
 <section class="section-header">
     <div class="container">
+        <div class="scroll">
         <header class="header">
             <img class="head-line-first-img" src="./img/Stroke300.svg" alt="stroke">
-            <button href="#" class="paragraph-link">about font</button>
+            <a href="#arrow-to" class="paragraph-link">about font</a>
             <img class="head-line-img" src="./img/Stroke70.svg" alt="stroke">
-            <button href="" class="paragraph-link">font style</button>
+            <a href="#font-style" class="paragraph-link">font style</a>
             <img class="head-line-img" src="./img/Stroke70.svg" alt="stroke">
-            <button href="" class="paragraph-link">abc & glyphs</button>
+            <a href="#glyphs" class="paragraph-link">abc & glyphs</a>
         </header>
+        </div>
     </div>
 </section>
 <main>
@@ -34,8 +38,10 @@
                     <span class="title-2 margin-right-32">& кириллица</span>
                 </h2>
                 <div class="title-wrap-bottom">
-                <p class="paragraph-40 italic">66 других языков</p>
-                <img src="./img/arrow.svg" alt="arrow" class="arrow-img">
+                <p class="paragraph-40 italic">
+                    66 других языков
+                </p>
+                    <a class="arrow-link" href="#arrow-to"><img  src="./img/arrow.svg" alt="arrow" class="arrow-img"></a>
                 </div>
             </div>
             <img src="./img/Header-magazine-girl.svg" alt="" class="magazine-with-women-img">
@@ -50,7 +56,7 @@
                     <h2 class="paragraph-40 about-symbols-text-title">
                         Базовый набор символов (<span class="red">latin</span>)
                     </h2>
-                    <h3 class="paragraph-48 font-height-65">
+                    <h3 class="paragraph-48 font-height">
                         Aa&nbsp;Bb&nbsp;Cc&nbsp;Dd&nbsp;Ee&nbsp;Ff&nbsp;Gg&nbsp;Hh&nbsp;Ii<br/>
                         Jj&nbsp;Kk&nbsp;Ll&nbsp;Mm&nbsp;Nn&nbsp;Oo&nbsp;Pp&nbsp;Qq&nbsp;Rr<br/>
                         Ss&nbsp;Tt&nbsp;Uu&nbsp;Vv&nbsp;Ww&nbsp;Xx&nbsp;Yy&nbsp;Zz<br/>
@@ -60,7 +66,7 @@
                         Базовый набор символов (
                         <span class="red">сyrillic</span>)
                     </h2>
-                    <h3 class="paragraph-48 font-height-65">
+                    <h3 class="paragraph-48 font-height">
                         Аа&nbsp;Бб&nbsp;Вв&nbsp;Гг&nbsp;Дд&nbsp;Ее&nbsp;Ёё&nbsp;Жж<br/>
                         3з&nbsp;Ии&nbsp;Йй&nbsp;Кк&nbsp;Лл&nbsp;Мм<br/>
                         Нн&nbsp;Оо&nbsp;Пп&nbsp;Рр&nbsp;Сс&nbsp;Тт&nbsp;Уу<br/>
@@ -72,7 +78,7 @@
             <div class="block-about-creator">
                 <img src="./img/about-creator.svg" alt="about-creator" class="about-creator-img">
                 <div class="about-creator-text">
-                    <p class="paragraph-40 italic about-creator-text-title">
+                    <p id="arrow-to" class="paragraph-40 italic about-creator-text-title">
                         Дизайн:
                     </p>
                     <p class="paragraph-48 red">
@@ -104,8 +110,8 @@
     <section class="section">
         <div class="container">
             <div class="outlines">
-                <div class="outlines-text">
-                    <h2 class="title-2 red">
+                <div class="outlines-text font-height">
+                    <h2 id="font-style" class="title-2 red">
                         Начертания:
                     </h2>
                     <p class="paragraph-64">regular</p>
@@ -113,7 +119,7 @@
                 </div>
                 <img src="./img/font-style-title.svg" class="outlines-women-img" alt="image-outlines-women">
             </div>
-            <div class="outlines-letters">
+            <div class="outlines-letters font-height">
                 <h3 class="paragraph-40 red">
                     Regular
                 </h3>
@@ -123,7 +129,7 @@
                     Ии&nbsp;Йй&nbsp;Кк&nbsp;Лл&nbsp;Мм&nbsp;Нн&nbsp;Оо&nbsp;Пп&nbsp;Рр&nbsp;Сс&nbsp;Тт&nbsp;Уу&nbsp;Фф&nbsp;Хх&nbsp;Цц&nbsp;Ч<br/>
                     Шш&nbsp;Щщ&nbsp;Ъъ&nbsp;Ыы&nbsp;Ьь&nbsp;Ээ&nbsp;Юю&nbsp;Яя&nbsp;1&nbsp;2&nbsp;3&nbsp;4&nbsp;5&nbsp;6&nbsp;7&nbsp;8&nbsp;9&nbsp;0&nbsp;(&nbsp;#&nbsp;&&nbsp;!&nbsp;?&nbsp;)
                 </p>
-                <h3 class="paragraph-40 red">
+                <h3 class="paragraph-40 red margin-top-60">
                     Italic
                 </h3>
                 <p class="paragraph-45 italic">
@@ -138,38 +144,38 @@
     </section>
     <section class="section">
         <div class="container price-card">
-            <div class="price-card-special-glyphs">
+            <div id="glyphs" class="price-card-special-glyphs">
                 <img src="./img/card.svg" class="special-glyphs-img" alt="image-special-glyphs">
-                <p class="paragraph-165 red">
+                <p class="paragraph-165 red transform15">
                     -100€
                 </p>
             </div>
-            <div class="special-glyphs">
+            <div class="special-glyphs align-right font-height">
                 <h2 class="title-2">
                     Special <span class="title-2 red">Glyphs</span><br/>
                     <span class="paragraph-94">
-                    $€£₽¥¢<br/>
-                    ∆ℓ∏∑Ω<br/>
-                    ∂√№‰
+                    <span class="letter-spacing-40">$€£₽¥</span>¢<br/>
+                    <span class="letter-spacing-40">∆ℓ∏∑</span>Ω<br/>
+                    <span class="letter-spacing-40">∂√№</span>‰
                     </span>
                 </h2>
             </div>
         </div>
     </section>
     <section class="section">
-        <div class="container">
+        <div class="container padding-top-150">
             <h2 class="title-2">
                 Standart <span class="red">Ligatures</span>
             </h2>
             <div class="ligatures">
-                <p class="paragraph-230">
+                <p class="paragraph-240">
                     ﬁ ﬂ fk fh fb
                 </p>
             </div>
         </div>
     </section>
     <section class="section">
-        <div class="container description">
+        <div class="container description padding-top-100">
             <img src="./img/ligatures.svg" alt="" class="description-img">
             <div class="description-wrap">
                 <div class="description-text">
@@ -177,23 +183,24 @@
                         Oldstyle
                         <span class="red">Figures</span>
                     </h2>
-                    <p class="paragraph-230"><span class="oldstyle">365</span> days</p>
-                    <p class="paragraph">
+                    <p class="paragraph-170"><span class="oldstyle">365</span> days</p>
+                    <p class="paragraph description-margin font-height">
                         Когда в&nbsp;тексте для чтения используются
                         маюскульные цифры, они часто создают
                         визуальное растяжение текста
                         и&nbsp;нарушают оттенок серого.
-                        Это имеет тот&nbsp;же эффект, если&nbsp;использовать ВСЕ ЗАГЛАВНЫЕ БУКВЫ.</p>
+                        Это имеет тот&nbsp;же эффект, если&nbsp;использовать ВСЕ ЗАГЛАВНЫЕ БУКВЫ.
+                    </p>
                 </div>
                 <div class="description-text">
                     <h2 class="title-2">
                         Super<span class="red">script</span>
                     </h2>
-                    <p class="paragraph-230">
+                    <p class="paragraph-240 padding30-30 margin-art">
                         ART
-                        <span class="paragraph-230 superscript">2</span>
+                        <span class="paragraph-240 padding30-30 superscript">2</span>
                     </p>
-                    <p class="paragraph">
+                    <p class="paragraph description-margin font-height">
                         Верхний индекс&nbsp;&mdash; это символ, который устанавливается немного выше строки ввода.
                         Он&nbsp;имеет тот&nbsp;же вес и&nbsp;размер,
                         что и&nbsp;символ нижнего индекса.
@@ -205,15 +212,15 @@
         </div>
     </section>
     <section class="section">
-        <div class="subscript">
+        <div class="subscript-block">
             <h2 class="title-2 ">
                 Sub<span class="red">script</span>
             </h2>
-            <p class="paragraph-230">
+            <p class="paragraph-240">
                 C<span class="subscript">17</span>H<span class="subscript">21</span>NO<span
                     class="subscript">4</span>
             </p>
-            <p class="paragraph">
+            <p class="paragraph font-height">
                 Нижний индекс&nbsp;— это символ, который устанавливается немного ниже обычной строки текста. Они
                 используются <br/>
                 в&nbsp;формулах, математических выражениях и&nbsp;спецификациях<br/>
@@ -229,19 +236,30 @@
 </main>
 <footer class="section footer">
     <div class="container">
-        <img src="" alt="" class="footer-wrap-img">
+        <img src="./img/footerwomen.svg" alt="footerwomen" class="footer-wrap-img">
         <div class="footer-text">
-            <p class="title-2">
+            <p class="title-2 facetype">
                 Enjoy this typeface?
             </p>
-            <div class="button">
-                <img src="">
-                <a class="paragraph-94 red">
+            <div  class="button">
+                <a class="pointer link" href="https://brownfox.org/fonts/wermut/">
+                <img src="./img/bottombuy.svg">
+                <p class="paragraph-94 red buybutton">
                     buy
                 </a>
-                <p class="paragraph">
-                    Толкачева Татьяна @wolf.eps <br/>
-                    tat.wolf.work@gmail.com
+                <p class="paragraph contacts font-height red">
+                    <a class="pointer link" href="https://portfolio.hse.ru/Student/20614#"> Толкачева Татьяна</a> <br/>
+                    <a class="pointer link" href="https://instagram.com/wolf.eps?igshid=YmMyMTA2M2Y="> inst: @wolf.eps</a> <br/>
+                    <a class="pointer link" href="mailto:tat.wolf.work@gmail.com"> tat.wolf.work@gmail.com</a><br/>
+                    <div class="discrepion">
+                    <p <span class="mini font-height20">
+                        признана в РФ экстремистской<br/>
+                    </span>
+                    <span class="mini font-height20">
+                        организацией и запрещена
+                    </span>
+                    </div>
+                    </p>
                 </p>
             </div>
         </div>

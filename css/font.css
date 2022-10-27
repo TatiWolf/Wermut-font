@@ -55,6 +55,7 @@ h5 {
     font-style: italic;
     font-size: 52px;
     font-weight: 400;
+    color: #0A0A0A;
 }
 
 .title-1 {
@@ -109,10 +110,18 @@ h5 {
     font-size: 94px;
     font-weight: 400;
 }
+.paragraph-170{
+    font-size: 170px;
+    font-weight: 400;
+    padding: 30px 0 30px 0;
+}
 
-.paragraph-230 {
+.paragraph-240 {
     font-size: 230px;
     font-weight: 400;
+}
+.padding30-30{
+    padding: 30px 0 30px 0;
 }
 
 .paragraph {
@@ -122,12 +131,12 @@ h5 {
 
 .superscript {
     vertical-align: super;
-    /*font-variant-numeric: oldstyle-nums;*/
+    font-variant-numeric: diagonal-fractions;
 }
 
 .subscript {
-    vertical-align: sub;
-    /*font-variant-numeric: oldstyle-nums;*/
+    vertical-align: -webkit-baseline-middle;
+    font-variant-numeric: diagonal-fractions;
 }
 .oldstyle {
     font-variant-numeric: oldstyle-nums;
@@ -140,6 +149,35 @@ h5 {
     margin: 70px 0 20px 0;
 }
 
-.font-height-65 {
-    line-height: 65px;
+.font-height {
+    line-height: normal;
+}
+.letter-spacing-40{
+    letter-spacing: 0.4em;
+}
+
+.transform15{
+    transform: rotate(15deg);
+}
+
+.align-right{
+    text-align: right;
+}
+
+.description-margin{
+    margin: 30px 0 60px 0;
+}
+
+.margin-art{
+    margin: -55px 0 30px 0;
+}
+
+.mini{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.font-height20{
+    line-height: 20px;
+    margin-top: 10px;
 }
